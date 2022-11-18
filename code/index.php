@@ -24,8 +24,9 @@
 <a href="https://docs.google.com/spreadsheets/d/1NFHT7my3W2BloH6DGVhIMbbFG63qaFuIRVuyA_Wbi78/edit#gid=0">Таблица</a>
 
 <?php
+
 // Подключаем клиент Google таблиц
-require_once 'google-api/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 // Наш ключ доступа к сервисному аккаунту
 $googleAccountKeyFilePath = 'service-key.json';

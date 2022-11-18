@@ -1,0 +1,20 @@
+{
+    "name": "ruslan/php-lab4",
+    "autoload": {
+        "psr-4": {
+            "Ruslan\\PhpLab4\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ruslan",
+            "email": "ruslan040506@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "2.0"
+    },
+	"config": {
+		"vendor-dir": "code"
+	}
+}
